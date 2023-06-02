@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('/src/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+/* mobile */
+
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk',sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+}
+
+main > section.resultado{
+    padding: 20px;
+    background-color: hsl(234, 85%, 63%);
+    color: white;
+    text-align: center;
+}
+
+section.resultado > p{
+    margin: 5px;
+    font-size: 0.8em;
+    color: rgba(208, 208, 215, 0.852);
+}
+
+section.resultado > div{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
