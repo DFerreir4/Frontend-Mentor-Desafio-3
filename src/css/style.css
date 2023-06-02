@@ -22,23 +22,57 @@ main{
 }
 
 main > section.resultado{
+    width: 375px;
+    height: 275px;
     padding: 20px;
-    background-color: hsl(234, 85%, 63%);
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: white;
     text-align: center;
+    border-radius: 0px 0px 30px 30px;
 }
 
-section.resultado > p{
-    margin: 5px;
+section.resultado > p.p1{
+    padding: 15px 0px;
     font-size: 0.8em;
     color: rgba(208, 208, 215, 0.852);
 }
 
+section.resultado > p.p2{
+    padding: 8px 50px;
+    font-size: 0.8em;
+    color: rgba(208, 208, 215, 0.852);
+}
+
+
+
 section.resultado > div{
-    background-color: black;
+    margin: auto;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     width: 100px;
     height: 100px;
     border-radius: 50px;
 }
+
+section.resultado > div > h1{
+    padding-top: 20px;
+    font-size: 2.2em;
+    
+}
+
+section.resultado > div > p{
+    font-size: 0.7em;
+    color: rgba(208, 208, 215, 0.616);
+}
+
+section.resultado > h2{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
 
 
