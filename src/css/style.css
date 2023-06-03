@@ -77,21 +77,30 @@ section.conteudo > div{
 }
 
 h3{
-    padding: 25px;
+    padding: 20px 0px 10px 30px;
 }
 
 table{
     margin: auto;
     width: 320px;
-}
-
-td{
-height: 50px;
+    border-spacing: 0px 15px;
 }
 
 td.campo{
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    font-weight: bolder;
+}
 
-    width: 220px;     
+td.dados{
+    border-radius: 0px 10px 10px 0px;
+    color: black;
+}
+
+td > img{
+    padding: 0px 8px 0px 15px;
+    position: relative;
+    top: 4px;
 }
 
 tr.red{
@@ -111,11 +120,6 @@ tr.blue{
     color: hsl(234, 85%, 45%);
 }
 
-
-div > ul > li{
-
-    list-style-type: none;
-}
 
 
 
