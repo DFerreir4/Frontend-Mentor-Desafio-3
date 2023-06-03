@@ -35,12 +35,14 @@ section.resultado > p.p1{
     padding: 15px 0px;
     font-size: 0.8em;
     color: rgba(208, 208, 215, 0.852);
+    font-weight: bolder;
 }
 
 section.resultado > p.p2{
     padding: 8px 50px;
     font-size: 0.8em;
     color: rgba(208, 208, 215, 0.852);
+    font-weight: bolder;
 }
 
 
@@ -67,6 +69,47 @@ section.resultado > div > p{
 section.resultado > h2{
     padding-top: 10px;
     font-size: 18px;
+}
+
+section.conteudo > div{
+    padding: 20px;
+  
+}
+
+h3{
+    padding: 30px;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+height: 50px;
+}
+
+td.campo{
+
+    width: 220px;     
+}
+
+tr.red{
+    background-color: red;
+}
+tr.yellow{
+    background-color: yellow;
+}
+tr.green{
+    background-color: green;
+}
+tr.blue{
+    background-color: blue;
+}
+
+
+div > ul > li{
+
+    list-style-type: none;
 }
 
 
