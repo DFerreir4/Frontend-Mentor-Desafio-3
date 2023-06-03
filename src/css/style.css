@@ -77,11 +77,12 @@ section.conteudo > div{
 }
 
 h3{
-    padding: 30px;
+    padding: 25px;
 }
 
 table{
     margin: auto;
+    width: 320px;
 }
 
 td{
@@ -94,16 +95,20 @@ td.campo{
 }
 
 tr.red{
-    background-color: red;
+    background-color: hsl(0, 100%, 67%, 0.100);
+    color: hsl(0, 100%, 67%);
 }
 tr.yellow{
-    background-color: yellow;
+    background-color: hsl(39, 100%, 56%, 0.100);
+    color: hsl(39, 100%, 56%);
 }
 tr.green{
-    background-color: green;
+    background-color: hsl(166, 100%, 37%, 0.100);
+    color: hsl(166, 100%, 37%);
 }
 tr.blue{
-    background-color: blue;
+    background-color: hsla(234, 85%, 45%, 0.100);
+    color: hsl(234, 85%, 45%);
 }
 
 
