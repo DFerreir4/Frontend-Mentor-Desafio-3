@@ -18,7 +18,8 @@ body, html{
 }
 
 main{
-    width: 100vw;
+    width: 375px;
+    height: 750px;
 }
 
 main > section.resultado{
@@ -82,7 +83,7 @@ h3{
 
 table{
     margin: auto;
-    width: 320px;
+    width: 300px;
     border-spacing: 0px 15px;
 }
 
@@ -119,6 +120,22 @@ tr.blue{
     background-color: hsla(234, 85%, 45%, 0.100);
     color: hsl(234, 85%, 45%);
 }
+
+a.botao{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 325px;
+    height: 60px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+}
+
+
 
 
 
