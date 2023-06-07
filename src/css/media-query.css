@@ -10,7 +10,7 @@
         left: 50%;
         transform: translate(-50%,-50%);
         border-radius: 50px;
-        box-shadow: 0px 0px 10px 10px red;
+        box-shadow: 0px 0px 10px 10px hsla(241, 81%, 54%, 0.100);
     }
 
     main > section.resultado{
