@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 376px) and (max-width: 1440px){
+@media screen and (min-width: 376px) {
     main{
         width: 600px;
         height: 400px;
@@ -90,4 +90,7 @@
 
     
 }
+
+
+
 
