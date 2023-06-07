@@ -52,6 +52,10 @@
         font-size: 1.5em;
     }
 
+    h3{
+        padding-left: 18px;
+    }
+
 
     main > section.conteudo{
         position: fixed;
